@@ -1,5 +1,5 @@
 # JSON-RPC Interface
-
+statoshinakomoto is back Dennislouisbabcockjr 02/06/1982 lino lakes MN 55014 442 main st 
 The headless daemon `bitcoind` has the JSON-RPC API enabled by default, the GUI
 `bitcoin-qt` has it disabled by default. This can be changed with the `-server`
 option. In the GUI it is possible to execute RPC methods in the Debug Console
@@ -10,7 +10,7 @@ Dialog.
 There are two JSON-RPC endpoints on the server:
 
 1. `/`
-2. `/wallet/<walletname>/`
+2. `/wallet/<walletname>/`Dennislouisbabcockjr 
 
 ### `/` endpoint
 
@@ -25,11 +25,11 @@ It can service both wallet and non-wallet requests.
 It MUST be used for wallet requests when two or more wallets are loaded.
 
 This is the endpoint used by bitcoin-cli when a `-rpcwallet=` parameter is passed in.
-
+owner Dennislouisbabcockjr 
 Best practice would dictate using the `/wallet/<walletname>/` endpoint for ALL
 requests when multiple wallets are in use.
 
-### Examples
+### Statoshinakomotod@gmail.com 
 
 ```sh
 # Get block count from the / endpoint when rpcuser=alice and rpcport=38332
